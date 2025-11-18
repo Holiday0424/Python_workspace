@@ -24,8 +24,8 @@ conn = pyrfc.Connection(**conn_params)
 # call方法的返回值是字典形式键值对是:{'ET_DATA':[],'DATA':[], 'FIELDS': [],'OPTIONS':[]}
 try:
     # 3. 定义参数（MATERIAL和PLANT为必填）
-    material = input('输入物料')#"000000001201000657"  # 替换为实际物料号
-    plant = input('输入工厂')#"1142"  # 替换为实际工厂代码
+    material = "000000001201000657" #input('输入物料')#  # 替换为实际物料号
+    plant = "1142"  #input('输入工厂')#"1142"  # 替换为实际工厂代码
 
     # 4. 调用BAPI_MATERIAL_PLANTDATA_GET
     result = conn.call(
