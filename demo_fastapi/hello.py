@@ -1,3 +1,4 @@
+import uvicorn
 from fastapi  import FastAPI
 app = FastAPI()  # 注意类名是FastAPI（首字母大写）
 
@@ -10,3 +11,5 @@ def read_item(item_id: int, q: str = None):
     return {"item_id": item_id, "query": q}
 #- 带参数接口：http://127.0.0.1:8000/items/123?q=test → 显示 {"item_id": 123, "query": "test"}。
 #- 自动文档：http://127.0.0.1:8000/docs → 可交互式测试所有接口。
+if __name__=="__main__":
+    uvicorn.run(app=app, host="127.0.0.1", port=8080)
