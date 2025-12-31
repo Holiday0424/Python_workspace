@@ -1,0 +1,10 @@
+
+**** Log file opened at 2025-11-12 10:24:40.551656 UTC+08:00 (ÖÐ¹ú±ê×¼Ê±¼ä), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 6, Compiled on Feb  5 2020 20:20:33
+ CPIC library: 753.2019.10.14 version 3, NI library: 40, Kernel Release: 753 Patch Level 525
+ Current working directory: E:\AA-python_workspace\Python_workspace\sap_conn, Program: python
+ Hardware: PC with Windows NT 8x AMD64 Level 6 (Mod 140 Step 1), Operating_system: Windows NT 10.0
+ Hostname: BLHF-BK-0260, IP address: 10.90.7.212, IPv6 address: fe80::ca10:43c2:69c3:c3e5
+
+2025-11-12 10:24:40.554612 [18132] >> Info entry
+	Did not find config file E:\AA-python_workspace\Python_workspace\sap_conn\sapnwrfc.ini.
