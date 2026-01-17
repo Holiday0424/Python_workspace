@@ -1,5 +1,7 @@
 import threading
 import time
+from turtledemo.sorting_animate import qsort
+
 
 def worker(num):
     #线程执行函数
